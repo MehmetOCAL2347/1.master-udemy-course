@@ -11,6 +11,9 @@ public class MainClass {
 
         /** Bean ismi ne ise onu metod içerisinde gönderiyoruz */
         System.out.println(context.getBean("name"));
+
+        /** Method ismi değil, methoda bizim verdiğimiz ismi çağırıcaz */
+        System.out.println(context.getBean("yourAge"));
     }
 
 }

@@ -11,4 +11,9 @@ public class ConfigurationAndBean {
         return "Mehmet";
     }
 
+    @Bean(name = "yourAge")
+    public int age(){
+        return 28;
+    }
+
 }
